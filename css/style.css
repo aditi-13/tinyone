@@ -1,6 +1,7 @@
 @font-face{
     font-family: "PT Sans", sans-serif;
 }
+
 body{
    
         font-family: "PT Sans", sans-serif;
@@ -30,11 +31,13 @@ color: #010101 !important;
 }
 
   
-}
+
 .inspire h1{
+    font-family: "PT Sans", sans-serif;
     font-size:32px;
-    font-weight: bold;
+   font-weight: bold;
     padding-bottom:10px;
+    
 
 }
 .inspire{
@@ -78,8 +81,46 @@ color: #010101 !important;
 }
 
 
+/* FEATURES */
 
-
+.features {
+    padding: 80px 0;
+}
+.title h1
+{
+    font-size:32px;
+    font-weight: 700;
+    color:#010101;
+}
+.title p{
     
-
+    font-size: 20px;
+}
+.icon i {
+    font-size: 50px;
+    color:#010101;
+    margin-left:14px;
+    margin-top: 3px ;
+}
+.icon-content h1{
+    font-size: 22px;
+    margin-left: 7px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.icon-content p{
+    margin-left: 7px ;
+    font-weight: lighter;
+    color: #626159;
+    box-sizing: border-box;
+}
+.icon-four{
+    font-size: 270%;
+    margin-top: -5px;
+   
+}
+.icon-one-two i{
+    font-size: 50px;
+    margin-top:10px;
+}
 

@@ -3,12 +3,45 @@
 	.inspire h1{
         font-size: 25px;
         
-    }
+	}
+	.inspire ul li i{
+		font-size: 220%;
+	}
    
     .menu {
-       text-align:right;
+	   text-align:right;
+	
    }
-
+   .title p {
+	   font-size: 18px;
+	   margin-top: 20px;
+	   margin-bottom: 20px;
+   }
+   .icon-four{
+	margin-left:115px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+   }
+   .icon {
+	   margin-left:115px;
+	   margin-bottom: 18px;
+	   margin-top: 10px;
+   }
+.icon-content{
+	text-align: center;
+}
+.icon-one i{
+	font-size: 50px;
+	margin-left:115px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+	
+}
+.icon-one-two{
+	margin-left:115px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -16,7 +49,50 @@
 
 	.menu {
         text-align:right;
-    }
+	}
+.icon{
+	text-align:center;
+	margin-right:30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.icon-content{
+	text-align: center;
+}
+.icon-one i{
+	font-size: 48px;
+    margin-left:100px;
+	text-align:center;
+	
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.icon-one-two {
+	text-align:center;
+	margin-right:30px;
+	margin-top: 15px;
+	margin-bottom: -12px;
+	
+}
+.icon-four i{
+margin-left: 93px;
+margin-top: 33px;
+	
+	
+}
+.h{
+	margin-top:7px;
+	margin-bottom: 7px;
+}
+.paddingt{
+	margin-top:1px;
+	margin-bottom: 7px;
+	
+}
+.icon-one-two i{
+	font-size: 45px;
+	padding-bottom: 30px;
+}
 
 }
 
@@ -24,8 +100,32 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.menu {
         text-align:right;
-    }
-
+	}
+	.icon-content h1 {
+		text-align: center;
+	}
+	.icon-content {
+		margin-left:19px;
+	
+	}
+    .icon-content p{
+	text-align: center;
+	}
+	.title {
+		margin-bottom: 30px;
+	}
+	.title p{
+		margin-top: 20px;
+	}
+	.icon-one i{
+		font-size: 50px;
+		margin-right:20px;
+	}
+	.icon-one-two i{
+		font-size: 45px;
+		padding-bottom: 30px;
+	}
+	
 	}
 
 /* Large devices (desktops, 992px and up) */
@@ -33,6 +133,29 @@
     
     .inspire{
 		margin-top:80px;}
+		.icon{
+			margin-left: 5px;
+		}
+		.icon-content{
+			margin-left: 20px;
+		}
+		.title p{
+			margin-top: 20px;
+			margin-bottom: 35px;
+		}
+		.icon-content p{
+			margin-top: 10px;
+			font-size: 17px ;
+		}
+		.icon-one i{
+			font-size: 50px;
+			margin-right:20px;
+		}
+		.icon-one-two i{
+			font-size: 45px;
+			padding-bottom: 30px;
+		}
+		
 	  }
 	 
  
@@ -45,7 +168,24 @@
 
     
 		margin-top:80px;}
-	
-	
-
+	.title{
+		margin-bottom: 40px;
+	}
+	.title p {
+		margin-top: 20px;
+	}
+		.icon-content h1{
+			font-size: 25px;
+		}
+	.icon-content p {
+		font-size: 18px;
+	}
+.icon-one i{
+	font-size: 50px;
+	margin-right:20px;
+}
+.icon-one-two i{
+	font-size: 45px;
+	padding-bottom: 30px;
+}
 }
